@@ -5,9 +5,9 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/utgivelser',
-        destination: '/',
-        permanent: false
+        source: '/',
+        destination: '/utgivelser',
+        permanent: true
       }
     ];
   }
