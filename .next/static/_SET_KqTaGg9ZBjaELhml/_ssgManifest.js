@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fcheckout","\u002F","\u002Fsearch","\u002F[...catalogue]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
