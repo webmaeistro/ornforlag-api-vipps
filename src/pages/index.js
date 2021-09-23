@@ -10,7 +10,7 @@ export async function getStaticProps(context) {
   const locale = getLocaleFromContext(context);
 
   const data = await getData({
-    asPath: '/',
+    asPath: '/utgivelser',
     language: locale.crystallizeCatalogueLanguage,
     preview
   });

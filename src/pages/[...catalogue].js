@@ -161,7 +161,7 @@ export async function getStaticPaths({ locales, defaultLocale }) {
       const allCatalogueItems = await simplyFetchFromGraph({
         query: `
           query GET_ALL_CATALOGUE_ITEMS($language: String!) {
-            catalogue(language: $language, path: "/") {
+            catalogue(language: $language, path: "/utgivelser") {
               path
               name
               children {

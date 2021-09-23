@@ -7,7 +7,7 @@ module.exports = {
       {
         source: '/utgivelser',
         destination: '/',
-        permanent: true
+        permanent: false
       }
     ];
   }
