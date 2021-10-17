@@ -1,11 +1,11 @@
 {
   "name": "ornforlag3-projet",
-  "version": "1.9.6",
+  "version": "1.9.7",
   "license": "MIT",
   "author": "Martin Andersen <marander@pm.me>",
   "description": "ornforlag.no website repo, using crystallize.com headless ecommerce boilerplate using next.js",
   "engines": {
-    "node": ">=12.10"
+    "node": ">=14.18"
   },
   "repository": {
     "url": "git@github.com:webmaeistro/ornforlag-api-vipps.git",
@@ -75,5 +75,5 @@
     "node-fetch": "2.6.1",
     "prettier": "2.0.5"
   },
-  "private": true
+  "private": false
 }
