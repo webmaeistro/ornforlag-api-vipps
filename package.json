@@ -65,6 +65,7 @@
   "devDependencies": {
     "@babel/core": "7.9.6",
     "@crystallize/import-utilities": "0.36.1",
+    "@next/eslint-plugin-next": "^11.1.2",
     "eslint": "^7.29.0",
     "eslint-config-next": "^11.0.1",
     "eslint-config-prettier": "6.11.0",
