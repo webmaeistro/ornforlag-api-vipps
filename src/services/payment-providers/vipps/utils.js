@@ -17,7 +17,7 @@ module.exports = {
     if (!client) {
       const VippsClient = require("@crystallize/node-vipps");
       client = new VippsClient({
-        testDrive: true,
+        testDrive: false,
         id: VIPPS_CLIENT_ID,
         secret: VIPPS_CLIENT_SECRET,
         subscriptionId: VIPPS_SUB_KEY,
