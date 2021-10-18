@@ -4,5 +4,5 @@
   "addToBasket": "Legg til hurtigkurv",
   "buy": "Vipps it!",
   "stock": "{{stockCount}} på lager",
-  "outOfStock": "UTSOLGT"
+  "outOfStock": "Ikke på lager!"
 }

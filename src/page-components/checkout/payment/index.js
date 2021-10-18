@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/display-name */
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
@@ -54,19 +55,19 @@ export default function Payment() {
       {
         paymentProviders {
           stripe {
-            enabled
+            disabled
           }
           klarna {
-            enabled
+            disabled
           }
           mollie {
-            enabled
+            disabled
           }
           vipps {
             enabled
           }
           paypal {
-            enabled
+            disabled
           }
         }
       }
