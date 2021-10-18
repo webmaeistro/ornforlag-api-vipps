@@ -1,5 +1,5 @@
+/* eslint-disable no-undef */
 // Screen sizes
-let Proxy;
 
 export const screen = new Proxy(
   {
