@@ -75,7 +75,7 @@ module.exports = async function orderPipelineStageChanged(payload) {
                 merchantSerialNumber: process.env.VIPPS_MERCHANT_SERIAL
               },
               transaction: {
-                amount: (99 + order.total.gross) * 100,
+                amount: (0 + order.total.gross) * 100,
                 transactionText:
                   'Ørn forlag | ornforlag.no Vipps transaksjon: Refundert'
               }

@@ -1,6 +1,6 @@
 {
   "name": "ornforlag-service-worker",
-  "version": "1.2.1",
+  "version": "1.2.6",
   "author": "Martin Andersen <marander@pm.me>",
   "private": false,
   "license": "MIT",
@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.15.8",
+    "@next/eslint-plugin-next": "^11.1.2",
     "eslint": "^7.18.0",
     "prettier": "2.2.1",
     "stylelint": "^13.13.1"
