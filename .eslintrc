@@ -9,5 +9,6 @@
   },
   "globals": {
     "Promise": true
-  }
+  },
+  "parser": "@babel/eslint-parser"
  }

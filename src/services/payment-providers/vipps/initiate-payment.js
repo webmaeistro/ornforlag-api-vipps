@@ -21,7 +21,7 @@ module.exports = async function initiateVippsPayment({
 
   // Add the identifier from the current logged in user
   const customerWithCurrentLoggedInUser = {
-    ...customer,
+    customer,
     identifier: user.email,
   };
 
@@ -69,7 +69,7 @@ module.exports = async function initiateVippsPayment({
           {
             isDefault: "Y",
             priority: 0,
-            shippingCost: 99,
+            shippingCost: 0,
             shippingMethod: "Posten Servicepakke",
             shippingMethodId: "posten-servicepakke",
           },

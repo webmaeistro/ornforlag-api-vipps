@@ -4,7 +4,7 @@
   "author": "Martin Andersen <marander@pm.me>",
   "private": false,
   "license": "MIT",
-   "publishConfig": {
+  "publishConfig": {
     "access": "public"
   },
   "scripts": {
@@ -46,6 +46,7 @@
     "stripe": "^8.130.0"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.15.8",
     "eslint": "^7.18.0",
     "prettier": "2.2.1",
     "stylelint": "^13.13.1"
