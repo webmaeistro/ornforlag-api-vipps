@@ -140,6 +140,7 @@ export async function getStaticProps(context) {
 export async function getStaticPaths({ locales, defaultLocale }) {
   const paths = [];
 
+  // eslint-disable-next-line no-undef
   await Promise.all((locales || ['en']).map(handleLocale));
 
   async function handleLocale(localeName) {
