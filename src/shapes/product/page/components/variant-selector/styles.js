@@ -24,7 +24,7 @@ export const Button = styled.button.attrs(() => ({
   margin: 0;
   padding: 8px 20px;
   position: relative;
-  text-transform: capitalize;
+  text-transform: none;
   width: 100%;
   &:focus,
   &:active {
