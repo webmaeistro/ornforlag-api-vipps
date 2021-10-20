@@ -6,7 +6,11 @@ export default function SocialBar() {
   return (
     <Outer>
       <Btn>
-        <Twitter />
+        <Twitter
+          onClick={() => {
+            window.open('http://twitter.com', '_blank');
+          }}
+        />
       </Btn>
       <Btn>
         <Facebook />
