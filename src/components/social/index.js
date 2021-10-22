@@ -5,12 +5,12 @@ import { Outer, Btn } from './styles';
 export default function SocialBar() {
   return (
     <Outer>
-      <Btn>
-        <Twitter
-          onClick={() => {
-            window.open('http://twitter.com', '_blank');
-          }}
-        />
+      <Btn
+        onClick={() => {
+          window.open('http://twitter.com', '_blank');
+        }}
+      >
+        <Twitter />
       </Btn>
       <Btn>
         <Facebook />
