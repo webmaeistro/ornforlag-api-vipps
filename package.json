@@ -1,6 +1,6 @@
 {
   "name": "ornforlag3-projet",
-  "version": "1.9.7",
+  "version": "1.9.8",
   "license": "MIT",
   "author": "Martin Andersen <marander@pm.me>",
   "description": "ornforlag.no website repo, using crystallize.com headless ecommerce boilerplate using next.js",
