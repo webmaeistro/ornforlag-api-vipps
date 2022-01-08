@@ -93,7 +93,16 @@ export function Facebook() {
 }
 export function Instagram() {
   return (
-    <svg width="50" height="50" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg version="1.1"
+      id="Layer_1"
+      xmlns="http://www.w3.org/2000/svg"
+      x="0px"
+      y="0px"
+      width="50px"
+      height="50px"
+      viewBox="0 0 50 50"
+      enableBackground="new 0 0 50 50"
+    >
       <rect width="50" height="50" fill="url(#pattern0)" />
       <defs>
         <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
