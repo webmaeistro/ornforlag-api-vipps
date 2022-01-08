@@ -103,7 +103,7 @@ export function Instagram() {
       viewBox="0 0 50 50"
       enableBackground="new 0 0 50 50"
     >
-
+      <rect width="100" height="100" fill="#333333" />
       <defs>
         <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
           <use xlinkHref="#image0_1_3" />
