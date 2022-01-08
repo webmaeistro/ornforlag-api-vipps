@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pintrest, LinkedIn, Facebook, Twitter } from './icons';
+import { Instagram, LinkedIn, Facebook, Twitter } from './icons';
 import { Outer, Btn } from './styles';
 
 export default function SocialBar() {
@@ -7,18 +7,27 @@ export default function SocialBar() {
     <Outer>
       <Btn
         onClick={() => {
-          window.open('http://twitter.com', '_blank');
+          window.open('https://twitter.com/webmaeistro', '_blank');
         }}
       >
         <Twitter />
       </Btn>
-      <Btn>
+      <Btn
+        onClick={() => {
+          window.open('https://facebook.com/ornforlag', '_blank');
+        }}>
         <Facebook />
       </Btn>
-      <Btn>
-        <Pintrest />
+      <Btn
+        onClick={() => {
+          window.open('https://instagram.com/ornforlag', '_blank');
+        }}>
+        <Instagram />
       </Btn>
-      <Btn>
+      <Btn
+        onClick={() => {
+          window.open('https://linkedin.com/u/ornforlag', '_blank');
+        }}>
         <LinkedIn />
       </Btn>
     </Outer>
