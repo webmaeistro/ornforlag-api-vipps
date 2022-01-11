@@ -8,7 +8,22 @@ module.exports = {
         source: '/utgivelser',
         destination: '/',
         permanent: false
-      }
+      },
+      {
+        source: '/Utsira',
+        destination: '/utgivelser/utstira',
+        permanent: true,
+      },
+      {
+        source: '/BirdwatchersGuidetoNorway',
+        destination: '/utgivelser/a-birdwarchers-guide-to-norway',
+        permanent: true,
+      },
+      {
+        source: '/SyEnBunad',
+        destination: '/utgivelser/sy-en-bunad',
+        permanent: true,
+      },
     ];
   }
 };
