@@ -1,4 +1,4 @@
-**This will walk you through the steps:**
+# This will walk you through the steps
 
 1. Choose the tech stack you want
 
@@ -38,7 +38,7 @@ npm run dev
 yarn dev
 ```
 
-This will start up the server on http://localhost:3000 for development.
+This will start up the server on <http://localhost:3000> for development.
 
 ## App Structure
 
