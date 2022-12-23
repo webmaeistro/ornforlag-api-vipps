@@ -45,7 +45,7 @@
     "@stripe/stripe-js": "1.8.0",
     "babel-plugin-styled-components": "^1.13.2",
     "immer": "^9.0.12",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.21",
     "next": "^12.1.0",
     "next-i18next": "^8.1.3",
